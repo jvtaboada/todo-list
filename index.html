@@ -1,22 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <!-- meta tags -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <!-- meta tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- import css -->
-    <link rel="stylesheet" href="./css/reset.css">
+        <!-- import css -->
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
 
-    <!-- style tab -->
-    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
-    <title>To-do List</title>
-</head>
-<body>
-    <h1>Tarefas á fazer</h1>
+        <!-- style tab -->
+        <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+        <title>To-do List</title>
+    </head>
 
-    <!-- import js -->
-    <script src="./js/script.js"></script>
-</body>
-</html>
+    <body>
+        <h1>Tarefas á fazer</h1>
+
+        <div>
+            <label>Adicionar tarefa</label>
+            <input id="newTask" type="text" placeholder="Ex: Estudar 1h30m"/>
+            <button id="addTaskBtn">+</button>
+        </div>
+
+        <div>
+            <ul id="taskList">
+
+                <li class="task">
+                    <input type="checkbox"/>
+                    <span>UEEE</span>
+                    <button>X</button>
+                    <button>Edit</button>
+                </li>
+
+                <li class="task">
+                    <input type="checkbox"/>
+                    <span>TAREFA2</span>
+                    <button>X</button>
+                    <button>Edit</button>
+                </li>
+            </ul>
+        </div>
+
+        <!-- import js -->
+        <script src="./js/script.js"></script>
+    </body>
+</html> 
